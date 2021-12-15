@@ -1,0 +1,37 @@
+@charset "utf-8";
+
+.clear::after{content: ''; display: block; clear: both;}
+.hidden{font-size: 0; color: transparent;}
+
+.inner{
+  margin: 0 16px;
+  position: relative;
+  overflow: hidden;
+}
+
+/* =====================header===================== */
+
+/* =====================bottom===================== */
+
+/* =====================footer===================== */
+
+
+@media (min-width:1024px){
+  .inner{
+    width: 960px;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+
+  /* =====================header===================== */
+
+  /* =====================footer===================== */
+  
+}
+@media (min-width:1280px){
+  .inner{
+    width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+}
