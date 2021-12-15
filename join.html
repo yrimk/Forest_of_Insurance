@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>보험의 숲 - 회원가입</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="css/reset.css" rel="stylesheet">
+    <link href="css/common.css" rel="stylesheet">
+    <link href="css/join.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="wrap">
+        <form>
+            <header>
+                <h1><a href="login" class="hidden">logo</a></h1>
+            </header>
+            <div id="container">
+                <div class="inner">
+                    <div class="join_box">
+                        <h2>JOIN</h2>
+                        <div class="l_name">
+                            <label for="user_name">
+                                <i class="material-icons md-18">badge</i>
+                                <span>이름</span>
+                            </label>
+                            <input type="text" id="user_name" placeholder="6~20자 영문, 숫자조합">
+                        </div>
+                        <div class="l_number">
+                            <label for="user_number">
+                                <i class="material-icons md-18">phone_iphone</i>
+                                <span>전화번호</span>
+                            </label>
+                            <div class="user_numbers">
+                                <select id="user_number">
+                                    <option>010</option>
+                                    <option>011</option>
+                                </select>
+                                <span>-</span>
+                                <input type="text" id="user_number2">
+                                <span>-</span>
+                                <input type="text" id="user_number3">
+                            </div>
+                        </div>
+                        <div class="l_id">
+                            <label for="user_id">
+                                <i class="material-icons md-18">person</i>
+                                <span>아이디</span>
+                            </label>
+                            <input type="text" id="user_id" placeholder="6~20자 영문, 숫자조합">
+                            <button type="button" class="btn__idcheck">중복</button>
+                        </div>
+                        <div class="l_pw">
+                            <label for="user_pw">
+                                <i class="material-icons md-18">lock</i>
+                                <span>비밀번호</span>
+                            </label>
+                            <input type="password" id="user_pw" placeholder="6~20자 영문, 숫자조합">
+                        </div>
+                        <div class="l_pw_check">
+                            <label for="user_pw">
+                                <i class="material-icons md-18">lock</i>
+                                <span>비밀번호 확인</span>
+                            </label>
+                            <input type="password" id="user_pw" placeholder="6~20자 영문, 숫자조합">
+                        </div>
+                        <div class="l_event_check">
+                            <input type="checkbox" id="user_ch">
+                            <label for="user_ch">이용약관 및 개인정보 수집 및 이용에 동의합니다.</label>
+                        </div>
+                        <button type="button" class="btn__join">회원가입</button>
+                    </div>
+                </div>
+            </div>
+            <footer>
+                <p>우리팀이름</p>
+                <div class="f_sns">
+                    <a href="#"><img src="img/f_kakao.svg" alt="카카오톡"></a>
+                    <a href="#"><img src="img/f_github.svg" alt="깃허브"></a>
+                    <a href="#"><img src="img/f_mail.svg" alt="메일"></a>
+                </div>
+            </footer>
+        </form>
+    </div>
+</body>
+
+</html>

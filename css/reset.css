@@ -6,9 +6,9 @@
 html , body{font-family: 'Noto Sans KR', 'Roboto', sans-serif; font-size: 10px; font-weight: 300; line-height: 1.3; color: #606060; }
 a{text-decoration: none; color: #606060;}
 img{border: 0;}
-input, select{vertical-align: top;}
+input, select{vertical-align: top; width: 220px;}
 ul, ol{list-style: none;}
-button{border: 0; background-color: transparent; border-radius: 0;}
+button{border: 0; background-color: transparent; border-radius: 0; cursor: pointer;}
 fieldset{border: 0;}
 legend{display: none;}
 input{outline: none; border: 0;}
