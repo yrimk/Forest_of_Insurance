@@ -81,7 +81,11 @@ footer{
   left: 0;
   width: 100%;
 }
-
+footer .team span:first-child::after{
+  content: "|";
+  display: inline-block;
+  margin: 0 10px 0 15px;
+}
 .f_sns{
   margin: 20px 0;
 }

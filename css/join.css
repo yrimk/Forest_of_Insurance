@@ -48,6 +48,7 @@ label .material-icons{
 input{
   padding: 10px;
   border: 1px solid #606060;
+  height: 38px;
 }
 .join_box .user_numbers input, .join_box .user_numbers select{
   width: 60px;
@@ -88,6 +89,7 @@ input{
   width: 50px;
   box-sizing: border-box;
   padding: 10px 0;
+  height: 38px;
 }
 .join_box .btn__join{
   margin-top: 20px;
@@ -147,7 +149,11 @@ footer{
   left: 0;
   width: 100%;
 }
-
+footer .team span:first-child::after{
+  content: "|";
+  display: inline-block;
+  margin: 0 10px 0 15px;
+}
 .f_sns{
   margin: 20px 0;
 }
