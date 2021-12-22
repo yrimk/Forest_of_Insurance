@@ -1,0 +1,163 @@
+@charset "UTF-8";
+.clear::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.hidden {
+  font-size: 0;
+  color: transparent;
+}
+
+body {
+  font-family: "Noto Sans KR", "Roboto", sans-serif;
+  font-size: 1rem;
+  background-color: #F5F7F8;
+}
+
+.inner {
+  margin: 0 16px;
+  position: relative;
+  overflow: hidden;
+}
+
+/* icon */
+.material-icons.md-13 {
+  font-size: 13px;
+}
+.material-icons.md-18 {
+  font-size: 18px;
+}
+.material-icons.md-24 {
+  font-size: 24px;
+}
+.material-icons.md-36 {
+  font-size: 36px;
+}
+.material-icons.md-48 {
+  font-size: 48px;
+}
+.material-icons.md-dark {
+  color: rgba(0, 0, 0, 0.54);
+}
+.material-icons.md-light {
+  color: white;
+}
+
+/* container */
+#container button {
+  color: #fff;
+  padding: 12px 22px;
+  margin-top: 20px;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+#container button.btn-green {
+  background-color: #259A6A;
+}
+#container button.btn-gray {
+  background-color: #606060;
+}
+#container label {
+  display: block;
+  margin: 5px;
+  font-size: 1.4rem;
+  position: relative;
+}
+#container input {
+  padding: 10px;
+  border: 1px solid #606060;
+}
+#container input.checkbox-green {
+  appearance: none;
+  position: relative;
+  width: 10px;
+  height: 10px;
+  cursor: pointer;
+  /* outline: none !important; */
+  border: 1px solid #606060;
+  border-radius: 0px;
+  padding: 6px;
+  bottom: -2px;
+}
+#container input.checkbox-green::before {
+  content: "✓";
+  font-weight: 400;
+  position: absolute;
+  top: 53%;
+  left: 50%;
+  overflow: hidden;
+  transform: scale(0) translate(-50%, -50%);
+  line-height: 1;
+}
+#container input.checkbox-green:checked {
+  background-color: #259a6a;
+  border-color: rgba(255, 255, 255, 0.3);
+  color: white;
+}
+#container input.checkbox-green:checked::before {
+  border-radius: 2px;
+  transform: scale(1) translate(-50%, -50%);
+}
+#container select {
+  padding: 10px 10px;
+  appearance: none;
+  cursor: pointer;
+  background: url(/arrow_drop_down_black_24dp.800831a9.svg) no-repeat right;
+}
+
+/* footer */
+footer {
+  background-color: #4A4A4A;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 1.4rem;
+  position: relative;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+footer .team span:first-child::after {
+  content: "|";
+  display: inline-block;
+  margin: 0 10px 0 15px;
+}
+footer .f_sns {
+  margin: 20px 0;
+}
+footer .f_sns a {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  margin-right: 25px;
+}
+footer .f_sns a:last-child {
+  margin-right: 0;
+}
+footer .f_sns img {
+  width: 100%;
+}
+
+@media (min-width: 1024px) {
+  .inner {
+    width: 960px;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+
+  /* footer */
+  footer {
+    font-size: 1.6rem;
+  }
+}
+@media (min-width: 1280px) {
+  .inner {
+    width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+}
+
+/*# sourceMappingURL=/common.bed29112.css.map */

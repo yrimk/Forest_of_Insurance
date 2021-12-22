@@ -1,0 +1,34 @@
+/* header */
+header {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 72px;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+  background-color: #fff;
+  box-sizing: border-box;
+  z-index: 10;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+header .logo a {
+  display: block;
+  background-image: url(/logo_leaf.3d0788b4.svg);
+  background-color: #fff;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 150%;
+  width: 100px;
+  height: 70px;
+}
+header a.logout {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  margin: auto;
+  display: block;
+  right: 20px;
+}
+
+/*# sourceMappingURL=/header.d390d9f1.css.map */

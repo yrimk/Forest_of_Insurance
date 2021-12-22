@@ -50,15 +50,17 @@ input {
   outline: none;
   border: 0;
 }
-
-input:focus::-webkit-input-placeholder,
-input:focus::-ms-input-placeholder {
+input:focus::-webkit-input-placeholder, input:focus::-ms-input-placeholder {
   color: transparent;
 }
 
 @media (max-width: 360px) {
   html, body {
     font-size: 8px;
+  }
+
+  input, select {
+    width: 100%;
   }
 }
 

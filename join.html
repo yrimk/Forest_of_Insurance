@@ -7,9 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>보험의 숲 - 회원가입</title>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link href="css/reset.scss" rel="stylesheet">
-    <link href="css/common.scss" rel="stylesheet">
-    <link href="css/join.scss" rel="stylesheet">
+    <link href="css/reset.css" rel="stylesheet">
+    <link href="css/common.css" rel="stylesheet">
+    <link href="css/join.css" rel="stylesheet">
 
 </head>
 
@@ -22,7 +22,7 @@
             <div id="container">
                 <div class="inner">
                     <div class="join_box">
-                        <h2>JOIN</h2>
+                        <h2 class="box_title">JOIN</h2>
                         <div class="l_name">
                             <label for="user_name">
                                 <i class="material-icons md-18">badge</i>
@@ -52,7 +52,7 @@
                                 <span>아이디</span>
                             </label>
                             <input type="text" id="user_id" placeholder="6~20자 영문, 숫자조합">
-                            <button type="button" class="btn__idcheck">중복</button>
+                            <button type="button" class="btn-gray">중복</button>
                         </div>
                         <div class="l_pw">
                             <label for="user_pw">
@@ -62,17 +62,17 @@
                             <input type="password" id="user_pw" placeholder="6~20자 영문, 숫자조합">
                         </div>
                         <div class="l_pw_check">
-                            <label for="user_pw">
+                            <label for="user_pw_check">
                                 <i class="material-icons md-18">lock</i>
                                 <span>비밀번호 확인</span>
                             </label>
-                            <input type="password" id="user_pw" placeholder="6~20자 영문, 숫자조합">
+                            <input type="password" id="user_pw_check" placeholder="6~20자 영문, 숫자조합">
                         </div>
                         <div class="l_event_check">
-                            <input type="checkbox" id="user_ch">
+                            <input type="checkbox" id="user_ch" class="checkbox-green">
                             <label for="user_ch">이용약관 및 개인정보 수집 및 이용에 동의합니다.</label>
                         </div>
-                        <button type="button" class="btn__join">회원가입</button>
+                        <button type="button" class="btn-green">회원가입</button>
                     </div>
                 </div>
             </div>
