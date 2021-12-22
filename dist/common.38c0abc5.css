@@ -1,0 +1,109 @@
+.clear::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.hidden {
+  font-size: 0;
+  color: transparent;
+}
+
+body {
+  font-family: "Noto Sans KR", "Roboto", sans-serif;
+  font-size: 1rem;
+  background-color: #F5F7F8;
+}
+
+.inner {
+  margin: 0 16px;
+  position: relative;
+  overflow: hidden;
+}
+
+/* icon */
+.material-icons.md-13 {
+  font-size: 13px;
+}
+
+.material-icons.md-18 {
+  font-size: 18px;
+}
+
+.material-icons.md-24 {
+  font-size: 24px;
+}
+
+.material-icons.md-36 {
+  font-size: 36px;
+}
+
+.material-icons.md-48 {
+  font-size: 48px;
+}
+
+.material-icons.md-dark {
+  color: rgba(0, 0, 0, 0.54);
+}
+
+.material-icons.md-light {
+  color: white;
+}
+
+/* =====================footer===================== */
+footer {
+  background-color: #4A4A4A;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 1.4rem;
+  position: relative;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+footer .team span:first-child::after {
+  content: "|";
+  display: inline-block;
+  margin: 0 10px 0 15px;
+}
+
+.f_sns {
+  margin: 20px 0;
+}
+
+.f_sns a {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  margin-right: 25px;
+}
+
+.f_sns a:last-child {
+  margin-right: 0;
+}
+
+.f_sns img {
+  width: 100%;
+}
+
+@media (min-width: 1024px) {
+  .inner {
+    width: 960px;
+    margin: 0 auto;
+  }
+
+  /* =====================footer===================== */
+  footer {
+    font-size: 1.6rem;
+  }
+}
+@media (min-width: 1280px) {
+  .inner {
+    width: 1200px;
+    margin: 0 auto;
+  }
+}
+
+/*# sourceMappingURL=/common.38c0abc5.css.map */

@@ -1,8 +1,5 @@
-@charset "utf-8";
-
-
 /* =====================header===================== */
-header{
+header {
   width: 100%;
   position: fixed;
   top: 0;
@@ -11,21 +8,24 @@ header{
   border-bottom: 2px solid rgba(0, 0, 0, 0.2);
   background-color: #fff;
   box-sizing: border-box;
+
+  .logo a {
+    display: block;
+    background: url(../img/logo_leaf.svg) no-repeat (center / cover);
+    width: 100px;
+    height: 70px;
+  }
+
+  a.logout {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    margin: auto;
+    display: block;
+    right: 0;
+  }
 }
-.logo a{
-  display: block;
-  background: url(../img/logo_leaf.svg) no-repeat center / cover;
-  width: 100px;
-  height: 70px;
-}
-header a.logout{
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  margin: auto;
-  display: block;
-  right: 0;
-}
+
 /* =====================container===================== */
 #container{
   margin: 70px auto 60px;

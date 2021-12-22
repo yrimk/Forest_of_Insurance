@@ -1,8 +1,30 @@
 {
+  "name": "forest_of_insurance",
+  "description": "",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "parcel test.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Im-hass/Forest_of_insurance.git"
+  },
   "devDependencies": {
     "eslint": "^8.5.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-prettier": "^4.0.0",
-    "prettier": "2.5.1"
-  }
+    "parcel-bundler": "^1.12.5",
+    "prettier": "2.5.1",
+    "sass": "^1.45.1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Im-hass/Forest_of_insurance/issues"
+  },
+  "homepage": "https://github.com/Im-hass/Forest_of_insurance#readme"
 }

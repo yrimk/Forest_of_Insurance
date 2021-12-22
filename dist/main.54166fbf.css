@@ -1,0 +1,82 @@
+/* =====================header===================== */
+header {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 72px;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+  background-color: #fff;
+  box-sizing: border-box;
+}
+header .logo a {
+  display: block;
+  background: url(/logo_leaf.3d0788b4.svg) no-repeat center/cover;
+  width: 100px;
+  height: 70px;
+}
+header a.logout {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  margin: auto;
+  display: block;
+  right: 0;
+}
+
+/* =====================container===================== */
+#container {
+  margin: 70px auto 60px;
+  text-align: center;
+}
+
+.user_name {
+  padding: 50px 0;
+}
+
+.user_name h2 {
+  font-size: 3rem;
+}
+
+.user_name p {
+  font-size: 2.5rem;
+}
+
+.nav_list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.nav_list a {
+  display: block;
+  width: 45%;
+  padding: 40px 0;
+  font-size: 3rem;
+  background-color: #fff;
+  margin-top: 5%;
+  font-weight: 700;
+}
+
+@media (min-width: 400px) {
+  .login_box {
+    width: 380px;
+    margin: 0 auto;
+  }
+}
+@media (min-width: 1024px) {
+  .inner {
+    width: 960px;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+}
+@media (min-width: 1280px) {
+  .inner {
+    width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+}
+
+/*# sourceMappingURL=/main.54166fbf.css.map */
