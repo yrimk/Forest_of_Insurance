@@ -26,5 +26,8 @@
   "bugs": {
     "url": "https://github.com/Im-hass/Forest_of_insurance/issues"
   },
-  "homepage": "https://github.com/Im-hass/Forest_of_insurance#readme"
+  "homepage": "https://github.com/Im-hass/Forest_of_insurance#readme",
+  "dependencies": {
+    "nth-check": "^2.0.1"
+  }
 }
