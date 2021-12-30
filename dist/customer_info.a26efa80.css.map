@@ -1,0 +1,1 @@
+{"version":3,"sources":["scss\\customer_info.scss"],"names":[],"mappings":"AAAA;EACE;EACA","file":"customer_info.a26efa80.css","sourceRoot":"..","sourcesContent":["#container{\r\n  width: 100%;\r\n  height: 100vh;\r\n}"]}
